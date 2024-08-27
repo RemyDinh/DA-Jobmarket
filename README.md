@@ -13,8 +13,7 @@ To achieve these goals, I have outlined the following research questions:
 ## Approach 
 
 ### Collection
-- The data was scraped of indeed on 09-08-2024 using the search term "data analyst" and with geographical filter the Netherlands. The Apify Indeed scraper was used for this. 
-
+- The data was scraped of indeed on 09-08-2024 using the search term "data analyst" and with geographical filter the Netherlands. The Apify Indeed scraper was used for this. The raw dataset is included as X, but the _description_ column was not included to protect any included personal data.
 ### Techstack
 - Apify (Indeed scraper) --> Data collection
 - ChatGPT --> Data labeling
@@ -40,6 +39,18 @@ After these preparation steps were the final clean file X was imported into Tabl
 ## Conclusion
 
 ### Findings
-### Limitations
-### Further recommendations
+- Excel and SQL were found to be the top-demanded skills, which suggests a strong demand for basic data manipulation and querying abilities. Python and Git, also highly mentioned, indicate a growing need for coding and version control skills, reflecting the increasing complexity and collaboration in data analysis tasks.
+- Almost all job listings requested for a degree. 47.3% requested at least a HBO degree, whereas a small majority of the job listings requested for at least a WO degree with 52.3%
+- Most data analysis jobs are located in larger cities. In terms of area a vast majority is located in the randstad (Amsterdam, Rotterdam, Utrecht area)
+- Average salary for the different experience levels. Internship: Intern: 26k, Junior: 43k, Medior: 59k, Senior 70k
+- Luxoft leads with a 4.5 rating, followed by Salesforce, Microsoft, and Johnson & Johnson at 4.2, showing high employee satisfaction across various industries. It makes sense that larger coorporation came out on top of this list as only companies that had at least 100 employee reviews were included. 
 
+### Limitations
+- Relatively small (888) and non-diverse sample (only one platform and search term)
+- Skills/seniority/education lvl. were collected by mentioning in description
+- Review results only account larger companies
+
+### Further recommendations
+- Look into the role of remote working
+- Larger, more diverse dataset
+- More adaptability to dashboard by adding filters
