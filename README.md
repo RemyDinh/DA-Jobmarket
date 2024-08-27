@@ -16,8 +16,11 @@ To achieve these goals, I have outlined the following research questions:
 - The data was scraped of indeed on 09-08-2024 using the search term "data analyst" and with geographical filter the Netherlands. The Apify Indeed scraper was used for this. 
 
 ### Techstack
+- Apify (Indeed scraper) --> Data collection
+- ChatGPT --> Data labeling
 - R (dplyr, tidygeocoder) --> Data cleaning & engineering
 - Tableau --> Analysis & Visualization
+
 
 ### Cleaning & Engineering
 The following key steps were taken. **CODE**
