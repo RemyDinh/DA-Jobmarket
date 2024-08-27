@@ -13,7 +13,7 @@ To achieve these goals, I have outlined the following research questions:
 ## Approach 
 
 ### Collection
-- The data was scraped of indeed on XX-XX-XX using the search term "data analyst" and with geographical filter the Netherlands. The Apify Indeed scraper was used for this. The
+- The data was scraped of indeed on 09-08-2024 using the search term "data analyst" and with geographical filter the Netherlands. The Apify Indeed scraper was used for this. 
 
 ### Techstack
 - R (dplyr, tidygeocoder) --> Data cleaning & engineering
@@ -31,7 +31,8 @@ The following key steps were taken. **CODE**
 ### Analysis & Visualization 
 After these preparation steps were the final clean file X was imported into Tableau. This tool allowed me to perform analysis, as well as visualize the findings into a coherent dashboard. The dashboard can be found under X and a screenshot is included below
 
-![image](https://github.com/user-attachments/assets/cadf0f7d-02aa-434a-bcb3-b0d9d7093e0b)
+![image](https://github.com/user-attachments/assets/1a194e1b-cf6d-41e6-8b2e-33bb6f311a1f)
+
 
 ## Conclusion
 
