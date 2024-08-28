@@ -29,7 +29,8 @@ The following key steps were taken. **CODE**
 3. _jobType_ column was standardized and brought down to Full-time/Part-time/Other/Unknown.
 4. _salary_ column was cleaned and standardized to show the annual wage for all of the job postings, resulting in the new column _numeric_salary_.
 5. _description_ column was searched through for the mentioning of Luke Barousse's (SOURCE) top 10 data analyst skills and for each skill a binary column was created.
-6. ChatGPT was used to label the required experience level, based on job descriptions. The prompt can be found under XXX and the output file XXX
+6. _description_ column was searched through for the mentioning of min. education requirement (HBO & WO and Bachelor & Master) and respectively binary columns were created.  
+7. ChatGPT was used to label the required experience level, based on job descriptions. The prompt can be found under XXX and the output file XXX
 
 ### Analysis & Visualization (Dashboard)
 After these preparation steps were the final clean file X was imported into Tableau. This tool allowed me to perform analysis, as well as visualize the findings into a coherent dashboard. The dashboard can be found under X and a screenshot is included below
