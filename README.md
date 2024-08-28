@@ -23,7 +23,7 @@ To achieve these goals, I have outlined the following research questions:
 
 final_dataset.csv
 ### Cleaning & Engineering
-The following key steps were taken. The Respective code can be found under [DA_Jobmarket.R](DA_Jobmarket.R)
+The following key steps were taken. The respective code can be found under [DA_Jobmarket.R](DA_Jobmarket.R)
 1. Unecessary/Redundant columns were deleted.
 2. _location_ column was cleaned and coordinates of the cities were added using the tidygeocoder package, to allow for the creation of maps. Seperate file was created for coordinates, [coords.csv](coords.csv).
 3. _jobType_ column was standardized and brought down to Full-time/Part-time/Other/Unknown.
