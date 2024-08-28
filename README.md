@@ -18,7 +18,7 @@ To achieve these goals, I have outlined the following research questions:
 ### Techstack
 - Apify (Indeed scraper) --> Data collection
 - ChatGPT --> Data labeling
-- R (dplyr (SOURCE), tidygeocoder (SOURCE) --> Data cleaning & engineering
+- R (dplyr, tidygeocoder) --> Data cleaning & engineering
 - Tableau --> Analysis & Visualization
 
 final_dataset.csv
@@ -28,7 +28,7 @@ The following key steps were taken. The respective code can be found under [DA_J
 2. _location_ column was cleaned and coordinates of the cities were added using the tidygeocoder package, to allow for the creation of maps. Seperate file was created for coordinates, [coords.csv](coords.csv).
 3. _jobType_ column was standardized and brought down to Full-time/Part-time/Other/Unknown.
 4. _salary_ column was cleaned and standardized to show the annual wage for all of the job postings, resulting in the new column _numeric_salary_.
-5. _description_ column was searched through for the mentioning of Luke Barousse's (SOURCE) top 10 data analyst skills and for each skill a binary column was created.
+5. _description_ column was searched through for the mentioning of Luke Barousse's top 10 data analyst skills and for each skill a binary column was created.
 6. _description_ column was searched through for the mentioning of min. education requirement (HBO & WO and Bachelor & Master) and respectively binary columns were created.  
 7. ChatGPT was used to label the required experience level, based on job descriptions. The prompt can be found under [labeling_prompt.md](labeling_prompt.md) and the output file under [ChatGpt Labeling Experience.csv](ChatGPT%20Labeling%20Experience.csv)
 
@@ -57,3 +57,9 @@ After these preparation steps were the final clean file [final_dataset.csv](fina
 - Look into the role of remote working
 - Larger, more diverse dataset to have more robust results.  
 - Add more adaptability/insightfulness to dashboard by adding filters
+
+### SOURCES
+- [Apify Indeed Scraper](https://apify.com/misceres/indeed-scraper)
+- [dplyr](https://dplyr.tidyverse.org)
+- [tidygeocoder](https://cran.r-project.org/web/packages/tidygeocoder/vignettes/tidygeocoder.html)
+- [Luke Barousse's identified top DA skills](https://datanerd.tech)
