@@ -13,11 +13,12 @@ To achieve these goals, I have outlined the following research questions:
 ## Approach 
 
 ### Collection
-- The data was scraped of indeed on 09-08-2024 using the search term "data analyst" and with geographical filter the Netherlands. The Apify Indeed scraper was used for this. The raw dataset is included as X, but the _description_ column was not included to protect any included personal data.
+- The data was scraped of indeed on 09-08-2024 using the search term "data analyst" and with geographical filter the Netherlands. The Apify Indeed scraper was used for this. The raw dataset can be found under XXX, url and description data was excluded to protect any personal data available in the job listings.
+
 ### Techstack
 - Apify (Indeed scraper) --> Data collection
 - ChatGPT --> Data labeling
-- R (dplyr, tidygeocoder) --> Data cleaning & engineering
+- R (dplyr (SOURCE), tidygeocoder (SOURCE) --> Data cleaning & engineering
 - Tableau --> Analysis & Visualization
 
 
@@ -27,7 +28,7 @@ The following key steps were taken. **CODE**
 2. _location_ column was cleaned and coordinates of the cities were added using the tidygeocoder package, to allow for the creation of maps.
 3. _jobType_ column was standardized and brought down to Full-time/Part-time/Other/Unknown.
 4. _salary_ column was cleaned and standardized to show the annual wage for all of the job postings, resulting in the new column _numeric_salary_.
-5. _description_ column was searched through for the mentioning of X's top 10 data analyst skills and for each skill a binary column was created.
+5. _description_ column was searched through for the mentioning of Luke Barousse's (SOURCE) top 10 data analyst skills and for each skill a binary column was created.
 6. ChatGPT was used to label the required experience level, based on job descriptions. The prompt can be found under XXX and the output file XXX
 
 ### Analysis & Visualization (Dashboard)
