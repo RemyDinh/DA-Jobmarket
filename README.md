@@ -25,7 +25,7 @@ final_dataset.csv
 ### Cleaning & Engineering
 The following key steps were taken. **CODE**
 1. Unecessary/Redundant columns were deleted.
-2. _location_ column was cleaned and coordinates of the cities were added using the tidygeocoder package, to allow for the creation of maps. Seperate file was created for coordinates,[coords.csv](coords.csv).
+2. _location_ column was cleaned and coordinates of the cities were added using the tidygeocoder package, to allow for the creation of maps. Seperate file was created for coordinates, [coords.csv](coords.csv).
 3. _jobType_ column was standardized and brought down to Full-time/Part-time/Other/Unknown.
 4. _salary_ column was cleaned and standardized to show the annual wage for all of the job postings, resulting in the new column _numeric_salary_.
 5. _description_ column was searched through for the mentioning of Luke Barousse's (SOURCE) top 10 data analyst skills and for each skill a binary column was created.
