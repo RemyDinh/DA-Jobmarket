@@ -34,7 +34,7 @@ The following key steps were taken. **CODE**
 
 
 ### Analysis & Visualization (Dashboard)
-After these preparation steps were the final clean file [final_dataset.csv](final_dataset.csv) and coordinates file [coords.csv](coords.csv) were imported into Tableau. This tool allowed me to perform analysis, as well as visualize the findings into a coherent dashboard. The dashboard can be found under X and a screenshot is included below
+After these preparation steps were the final clean file [final_dataset.csv](final_dataset.csv) and coordinates file [coords.csv](coords.csv) were imported into Tableau. This tool allowed me to perform analysis, as well as visualize the findings into a coherent dashboard. The dashboard can be found [here](https://public.tableau.com/views/DA-JobmarketDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) and a screenshot is included below
 
 ![image](https://github.com/user-attachments/assets/1a194e1b-cf6d-41e6-8b2e-33bb6f311a1f)
 
