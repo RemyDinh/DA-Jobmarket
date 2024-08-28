@@ -1,4 +1,4 @@
-## The following was inserted into ChatGPT, this was done in batches of 50 due to computational limitations.
+### The following was inserted into ChatGPT, this was done in batches of 50 due to computational limitations.
 
 I want you to analyze job descriptions and label them with a seniority level: "junior," "medior," "senior," or "not specified." The output should be a single column containing only the seniority label without any explanation or row numbers.
 
