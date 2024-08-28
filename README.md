@@ -46,11 +46,11 @@ After these preparation steps were the final clean file X was imported into Tabl
 - Luxoft leads with a 4.5 rating, followed by Salesforce, Microsoft, and Johnson & Johnson at 4.2, showing high employee satisfaction across various industries. It makes sense that larger coorporation came out on top of this list as only companies that had at least 100 employee reviews were included. 
 
 ### Limitations
-- Relatively small (888) and non-diverse sample (only one platform and search term)
-- Skills/seniority/education lvl. were collected by mentioning in description
-- Review results only account larger companies
+- Relatively small (888 posts) and non-diverse sample (only one platform and search term)
+- Seniority was collected by a LLM analyzing description content, could be prone to error.
+- Review results only account for larger companies
 
 ### Further recommendations
 - Look into the role of remote working
-- Larger, more diverse dataset
-- More adaptability to dashboard by adding filters
+- Larger, more diverse dataset to have more robust results.  
+- Add more adaptability/insightfulness to dashboard by adding filters
