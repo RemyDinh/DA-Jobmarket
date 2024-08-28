@@ -13,7 +13,7 @@ To achieve these goals, I have outlined the following research questions:
 ## Approach 
 
 ### Collection
-- The data was scraped of indeed on 09-08-2024 using the search term "data analyst" and with geographical filter the Netherlands. The Apify Indeed scraper was used for this. The raw dataset can be found under [dataset_indeed_anon.csv](DA-Jobmarket/dataset_indeed_anon.csv), url and description data was excluded to protect any personal data available in the job listings.
+- The data was scraped of indeed on 09-08-2024 using the search term "data analyst" and with geographical filter the Netherlands. The Apify Indeed scraper was used for this. The raw dataset can be found under [dataset_indeed_anon.csv](dataset_indeed_anon.csv), url and description data was excluded to protect any personal data available in the job listings.
 
 ### Techstack
 - Apify (Indeed scraper) --> Data collection
